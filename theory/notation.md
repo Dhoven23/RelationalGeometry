@@ -52,11 +52,10 @@ $$
 This notation is provisional and should not be confused with logical entailment unless that interpretation is explicitly intended.
 
 ---
-
 ## Argument Set of a Relation
 
 $$
-\operatorname{Args}(r)
+\mathrm{Args}(r)
 $$
 
 denotes the arguments constrained or instantiated by relation $r$.
