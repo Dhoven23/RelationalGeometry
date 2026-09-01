@@ -47,17 +47,15 @@ research/
     claims.md
     research-log.md
 formal/
-    core/
-    models/
-    proofs/
+    RelationalGeometry/
 models/
     toy/
     projection/
     oscillators/
 experiments/
     enumeration/
+        model_search/
     simulation/
-    model_search/
 references/
 ```
 ## Epistemic discipline
@@ -83,3 +81,5 @@ $$
 and formalize the resulting theory in Lean.
 ## Long-term objective
 Determine whether familiar mathematical structures associated with dynamics, probability, wave functions, and causality can be recovered as consequences or representations of relational geometry rather than introduced as primitives.
+## Lean Project
+A Lean4 project has been created in formal/
