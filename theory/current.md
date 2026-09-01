@@ -36,9 +36,9 @@ Relations precede arguments in Being.
 
 Let
 
-\[
+$$
 R
-\]
+$$
 
 denote the relational structure of Being.
 
@@ -58,15 +58,15 @@ Arguments therefore do not self-exist as primitive entities.
 
 In schematic form:
 
-\[
+$$
 A \not\Rightarrow \text{primitive Being}.
-\]
+$$
 
 Rather:
 
-\[
+$$
 R \rightarrow A
-\]
+$$
 
 where the arrow denotes relational instantiation rather than temporal causation.
 
@@ -80,15 +80,15 @@ Arguments possess secondary is-ness through participation in relations.
 
 Thus:
 
-\[
+$$
 \text{Being} \supset R
-\]
+$$
 
 while detector realization contains instantiated arguments:
 
-\[
+$$
 D \supset A_D.
-\]
+$$
 
 The predicate of formal existence is intentionally not introduced at this level.
 
@@ -104,13 +104,13 @@ The arguments represented by a detector constrain which relations may be admissi
 
 Let
 
-\[
+$$
 A_D
-\]
+$$
 
-denote the arguments available to detector \(D\).
+denote the arguments available to detector $`D`$.
 
-A relation is not admissible merely because it belongs to the relational structure \(R\).
+A relation is not admissible merely because it belongs to the relational structure $`R`$.
 
 Its arguments must either:
 
@@ -119,17 +119,17 @@ Its arguments must either:
 
 For example, if
 
-\[
+$$
 A,B\in A_D
-\]
+$$
 
 but
 
-\[
+$$
 C,D\notin A_D,
-\]
+$$
 
-then a relation whose constrained arguments are \(C,D\) is not directly admissible to \(D\).
+then a relation whose constrained arguments are $`C,D`$ is not directly admissible to $`D`$.
 
 ⸻
 
@@ -141,27 +141,27 @@ If a relation is admitted because it constrains an argument, then absence of the
 
 Thus:
 
-\[
+$$
 r\text{ constrains }A
-\]
+$$
 
 together with
 
-\[
+$$
 A\notin A_D
-\]
+$$
 
-implies that \(r\) cannot remain active in \(D\), unless \(r\) itself admits the instantiation of \(A\).
+implies that $`r`$ cannot remain active in $`D`$, unless $`r`$ itself admits the instantiation of $`A`$.
 
 Schematically:
 
-\[
+$$
 \boxed{
 \text{no admissible argument for }r
 \Rightarrow
 \text{prune }r
 }
-\]
+$$
 
 This establishes a reciprocal relationship between relational constraint and relational pruning.
 
@@ -175,32 +175,32 @@ Admissibility limits the states that arguments may occupy.
 
 Let
 
-\[
+$$
 \Omega(D)
-\]
+$$
 
-denote the potential state space of the arguments represented by detector \(D\).
+denote the potential state space of the arguments represented by detector $`D`$.
 
 Let
 
-\[
+$$
 \mathcal{A}(D)\subseteq\Omega(D)
-\]
+$$
 
-denote the subset satisfying the relations admissible to \(D\).
+denote the subset satisfying the relations admissible to $`D`$.
 
 Then:
 
-\[
+$$
 \boxed{
 \mathcal{A}(D)
 
 \{s\in\Omega(D)\mid s
 \text{ satisfies the active relational constraints of }D\}
 }
-\]
+$$
 
-The exact mathematical structure of \(\Omega(D)\), the relations acting upon it, and the resulting closure/admissibility operator remain to be formally specified.
+The exact mathematical structure of $`\Omega(D)`$, the relations acting upon it, and the resulting closure/admissibility operator remain to be formally specified.
 
 ⸻
 
@@ -208,14 +208,14 @@ Axiom 7 — Relational Subset
 
 Let
 
-\[
+$$
 r\subseteq R.
-\]
+$$
 
-A relational subset \(r\) is the case in detector \(D\) if:
+A relational subset $`r`$ is the case in detector $`D`$ if:
 
-1. \(r\) is compatible with all relations already admitted to \(D\); and
-2. \(r\) either instantiates an argument constrained by the existing relational structure, or constrains an argument already instantiated by \(D\).
+1. $`r`$ is compatible with all relations already admitted to $`D`$; and
+2. $`r`$ either instantiates an argument constrained by the existing relational structure, or constrains an argument already instantiated by $`D`$.
 
 Thus admission is not unrestricted permeability to relations in Being.
 
@@ -231,9 +231,9 @@ Detection selects admissible states of arguments from their potential state spac
 
 Schematically:
 
-\[
+$$
 D:\Omega(D)\rightarrow\mathcal{A}(D).
-\]
+$$
 
 Detection is not itself a temporal event.
 
@@ -241,15 +241,15 @@ The detector is infinitesimally thin and possesses no duration.
 
 It relates:
 
-\[
+$$
 \text{what is the case}
-\]
+$$
 
 to:
 
-\[
+$$
 \text{what may be the case given what is the case}.
-\]
+$$
 
 It therefore also determines what is not the case relative to the currently admitted state.
 
@@ -261,9 +261,9 @@ The result of detection may constitute the relationally constrained input to a s
 
 Thus a succession may be represented as:
 
-\[
+$$
 D_0\rightarrow D_1\rightarrow D_2\rightarrow\cdots
-\]
+$$
 
 where each detector state is constrained by the relational structure available to it.
 
@@ -277,23 +277,23 @@ Detection prunes relations for which no admissible arguments remain.
 
 Let
 
-\[
+$$
 \operatorname{Args}(r)
-\]
+$$
 
-denote the arguments constrained by relation \(r\).
+denote the arguments constrained by relation $`r`$.
 
 Then:
 
-\[
+$$
 \boxed{
 \operatorname{Args}(r)\cap A_D=\varnothing
 \Rightarrow
 r\notin D
 }
-\]
+$$
 
-unless \(r\) is itself capable of instantiating the missing arguments through admissible relational structure.
+unless $`r`$ is itself capable of instantiating the missing arguments through admissible relational structure.
 
 Pruning is therefore the inverse operation to relational constraint.
 
@@ -305,9 +305,9 @@ Axiom 11 — Self-Relation
 
 A self-relation relates an argument to itself under detection.
 
-\[
+$$
 A\leftrightarrow A.
-\]
+$$
 
 Self-relation is infinitely self-admissible.
 
@@ -323,13 +323,13 @@ Axiom 12 — Exclusive Relation
 
 An exclusive relation places its arguments in mutually incompatible states of a detector.
 
-For arguments \(A\) and \(B\):
+For arguments $`A`$ and $`B`$:
 
-\[
+$$
 A\mid B
-\]
+$$
 
-means that \(A\) and \(B\) cannot both be admitted as the case within the same detector state.
+means that $`A`$ and $`B`$ cannot both be admitted as the case within the same detector state.
 
 ⸻
 
@@ -339,9 +339,9 @@ An inclusive relation permits its arguments to be admitted within the same detec
 
 Schematically:
 
-\[
+$$
 A\land B.
-\]
+$$
 
 Inclusion therefore does not require separation of its arguments.
 
@@ -358,11 +358,11 @@ The latter is called the implicit relation.
 
 Thus:
 
-\[
+$$
 \text{self-relation}
 +
 \text{other-relation}
-\]
+$$
 
 constitutes the minimal relational condition for detector-level determination.
 
@@ -376,11 +376,11 @@ A simultaneous relation is an inclusive relation whose arguments are asserted to
 
 Schematically:
 
-\[
+$$
 A\mathrel{S}B
 \Rightarrow
 A,B\in D_n.
-\]
+$$
 
 Simultaneity therefore implies inclusion.
 
@@ -392,19 +392,19 @@ A non-simultaneous relation is an inclusive relation whose arguments are related
 
 Schematically:
 
-\[
+$$
 A\mathrel{N}B
-\]
+$$
 
-indicates that \(A\) and \(B\) are related, while their realization is separated across detector succession.
+indicates that $`A`$ and $`B`$ are related, while their realization is separated across detector succession.
 
 Critically:
 
-\[
+$$
 \boxed{
 \text{non-simultaneous}\neq\text{exclusive}
 }
-\]
+$$
 
 Exclusive relation describes incompatibility within a detector state.
 
@@ -440,9 +440,9 @@ A detector containing simultaneous or non-simultaneous relations has a relationa
 
 Such a detector may therefore generate a succession:
 
-\[
+$$
 D_0,D_1,D_2,\ldots
-\]
+$$
 
 through repeated application of admissibility and detection.
 
@@ -464,21 +464,21 @@ They are pre-existent to the definition.
 
 Axiom 20 — Existence
 
-An entity \(E\) exists in detector \(D\) iff incrementing the detector does not destroy \(E\).
+An entity $`E`$ exists in detector $`D`$ iff incrementing the detector does not destroy $`E`$.
 
 Schematically:
 
-\[
+$$
 E\in D_n
-\]
+$$
 
 and
 
-\[
+$$
 E\in D_{n+1}
-\]
+$$
 
-under the relevant identity criterion implies persistence of \(E\).
+under the relevant identity criterion implies persistence of $`E`$.
 
 The exact identity criterion remains to be formalized.
 
@@ -486,11 +486,11 @@ The exact identity criterion remains to be formalized.
 
 Axiom 21 — Finite Existence
 
-If \(E\) remains admissibly instantiated for \(N\) detector increments, then \(E\) has an existence of length \(N\).
+If $`E`$ remains admissibly instantiated for $`N`$ detector increments, then $`E`$ has an existence of length $`N`$.
 
-\[
+$$
 E\in D_0,D_1,\ldots,D_N.
-\]
+$$
 
 Existence does not entail invariant form.
 
@@ -500,29 +500,29 @@ An existent entity may undergo relational change while remaining the same entity
 
 Axiom 22 — Unbounded Existence
 
-If \(E\) remains admissibly instantiated for an arbitrary number of detector increments, then \(E\) has unbounded existence.
+If $`E`$ remains admissibly instantiated for an arbitrary number of detector increments, then $`E`$ has unbounded existence.
 
-\[
+$$
 \forall N\in\mathbb{N},
 \quad
 E\in D_0,\ldots,D_N.
-\]
+$$
 
 Thus:
 
-\[
+$$
 \boxed{
 \text{existence}\neq\text{state invariance}
 }
-\]
+$$
 
 and:
 
-\[
+$$
 \boxed{
 \text{existence}=\text{persistence under detection}
 }
-\]
+$$
 
 subject to the yet-to-be-formalized identity criterion.
 
@@ -544,15 +544,15 @@ Relations may possess more dimensions than are represented by a detector.
 
 In the minimal toy model:
 
-\[
+$$
 \dim(R)=2
-\]
+$$
 
 while:
 
-\[
+$$
 \dim(D)=1.
-\]
+$$
 
 Arguments therefore possess a detector-visible component and an unrepresented component.
 
@@ -564,9 +564,9 @@ Detection realizes only the component of a relational configuration representabl
 
 Let:
 
-\[
+$$
 \pi:R\rightarrow D
-\]
+$$
 
 denote projection onto the detector-visible relational dimension.
 
@@ -578,23 +578,23 @@ It is unrepresented within the detector.
 
 Hypothesis P3 — Shadow
 
-For a relational state \(r\), define:
+For a relational state $`r`$, define:
 
-\[
+$$
 r=\pi(r)+\sigma(r)
-\]
+$$
 
 where:
 
-\[
+$$
 \pi(r)
-\]
+$$
 
 is the detector-visible projection and:
 
-\[
+$$
 \sigma(r)
-\]
+$$
 
 is the detector-invisible shadow component.
 
@@ -608,21 +608,21 @@ An argument need not be either completely represented or completely absent.
 
 A relational configuration may therefore occupy an intermediate state:
 
-\[
+$$
 0<|\pi(r)|<|r|.
-\]
+$$
 
 This creates a third possibility between:
 
-\[
+$$
 \text{full projection}
-\]
+$$
 
 and:
 
-\[
+$$
 \text{cancellation}.
-\]
+$$
 
 ⸻
 
@@ -630,7 +630,7 @@ Hypothesis P5 — Projection Dynamics
 
 A candidate oscillator may arise from a cyclic redistribution between projected and shadow components:
 
-\[
+$$
 \text{full projection}
 \rightarrow
 \text{partial projection}
@@ -640,7 +640,7 @@ A candidate oscillator may arise from a cyclic redistribution between projected 
 \text{partial projection}
 \rightarrow
 \text{full projection}.
-\]
+$$
 
 No primitive transition relation is introduced.
 
@@ -654,13 +654,13 @@ The apparent indeterminacy of a detector may arise from the detector representin
 
 Thus randomness may be modeled as:
 
-\[
+$$
 \boxed{
 \text{randomness}
 \sim
 \text{dimensional mismatch}
 }
-\]
+$$
 
 This is a conjecture about the eventual relation between projection and probability, not a current theorem.
 
