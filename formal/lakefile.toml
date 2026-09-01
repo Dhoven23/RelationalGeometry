@@ -1,0 +1,10 @@
+name = "RelationalGeometry"
+version = "0.1.0"
+defaultTargets = ["relationalgeometry"]
+
+[[lean_lib]]
+name = "RelationalGeometry"
+
+[[lean_exe]]
+name = "relationalgeometry"
+root = "Main"
