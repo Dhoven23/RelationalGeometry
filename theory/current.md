@@ -278,7 +278,7 @@ Detection prunes relations for which no admissible arguments remain.
 Let
 
 $$
-\operatorname{Args}(r)
+\text{Args}(r)
 $$
 
 denote the arguments constrained by relation $`r`$.
@@ -287,7 +287,7 @@ Then:
 
 $$
 \boxed{
-\operatorname{Args}(r)\cap A_D=\varnothing
+\text{Args}(r)∩A_D=∅
 \Rightarrow
 r\notin D
 }

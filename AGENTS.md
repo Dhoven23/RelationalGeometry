@@ -128,3 +128,53 @@ The immediate mathematical objective is to determine whether
 multidimensional relations, partial projection, and shadow structure
 can produce a nontrivial detector succession containing an oscillator
 without introducing primitive transition or causality.
+
+
+# Mathematical Writing Specification
+
+## Source Format
+
+All mathematical documents MUST be valid GitHub-Flavored Markdown.
+
+All mathematical notation MUST use LaTeX.
+
+Inline mathematics MUST use `$...$`.
+
+Display mathematics MUST use `$$...$$`.
+
+Do not use Unicode mathematical symbols when an equivalent
+LaTeX command exists.
+
+Correct:
+
+$$
+\forall N \in \mathbb{N},\quad E \in D_N.
+$$
+
+Incorrect:
+
+∀ N ∈ ℕ, E ∈ D_N
+
+Do not use `$begin:math:display$\.\.\.$end:math:display$` or `$begin:math:text$\.\.\.$end:math:text$` for mathematical notation.
+
+Do not substitute Unicode characters for LaTeX commands.
+
+## Canonical Notation
+
+Use the notation defined in `definitions/`.
+
+Do not introduce alternative notation for an existing concept
+without explicitly proposing the change.
+
+## Definitions vs Claims
+
+A definition establishes terminology.
+
+An axiom establishes a primitive assumption.
+
+A proposition is a derived claim.
+
+A conjecture is not established.
+
+A proof must distinguish formally established results
+from computational evidence or intuition.
