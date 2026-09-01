@@ -71,9 +71,9 @@ Detector Succession
 
 A sequence of detector realizations:
 
-[
+$$
 D_0,D_1,D_2,\ldots
-]
+$$
 
 in which the output of one detection constrains the admissibility conditions of subsequent detection.
 
@@ -85,9 +85,9 @@ The set of potential states available to the arguments of a detector.
 
 Denoted:
 
-[
+$$
 \Omega(D).
-]
+$$
 
 ⸻
 
@@ -97,9 +97,9 @@ The relation between potential states and the relational constraints under which
 
 The admissible state space is denoted:
 
-[
+$$
 \mathcal A(D)\subseteq\Omega(D).
-]
+$$
 
 ⸻
 
@@ -109,9 +109,9 @@ The operation by which admissible states are selected from potential states and 
 
 Schematically:
 
-[
+$$
 D:\Omega(D)\rightarrow\mathcal A(D).
-]
+$$
 
 ⸻
 
@@ -125,9 +125,9 @@ Self-Relation
 
 A relation of an argument to itself.
 
-[
+$$
 A\leftrightarrow A.
-]
+$$
 
 Self-relation provides the minimal condition for participation in detector realization.
 
@@ -177,7 +177,7 @@ Non-simultaneity is not equivalent to exclusion.
 
 Relational Subset
 
-A subset of the relational structure of Being admitted by a detector because it is compatible with the detector’s existing relations and can instantiate or constrain available arguments.
+A subset of the relational structure of Being admitted by a detector because it is compatible with the detector's existing relations and can instantiate or constrain available arguments.
 
 ⸻
 
@@ -189,7 +189,7 @@ A mapping from a multidimensional relational structure into the dimensions repre
 
 Shadow
 
-The relational component of a structure that is constrained by the detector but is not represented in the detector’s visible state.
+The relational component of a structure that is constrained by the detector but is not represented in the detector's visible state.
 
 The mathematical definition of shadow remains provisional.
 
@@ -201,9 +201,9 @@ A state in which only part of a relational configuration is represented in the d
 
 Symbolically:
 
-[
+$$
 0<|\pi(r)|<|r|.
-]
+$$
 
 ⸻
 
@@ -221,17 +221,17 @@ A detector succession containing at least two distinct states that recur sequent
 
 A minimal oscillator therefore requires:
 
-[
+$$
 D_i\neq D_{i+1}
-]
+$$
 
 and eventual recurrence:
 
-[
+$$
 D_i=D_{i+n}
-]
+$$
 
-for some (n>1), under an appropriate state-equivalence criterion.
+for some $`n>1`$, under an appropriate state-equivalence criterion.
 
 ⸻
 
