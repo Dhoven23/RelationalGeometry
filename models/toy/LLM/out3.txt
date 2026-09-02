@@ -1,0 +1,16 @@
+========================================================================
+L3 MATROID RELATIONAL LABORATORY RESULT
+========================================================================
+Deficit A (Redundant):   Delta_A = ['r1', 'r2', 'r3']
+  L1 Load: |Delta_A|            = 3
+  L3 Load: r_M(Delta_A)          = 2
+  Closure: cl_M({r1, r2})       = ['r1', 'r2', 'r3']
+
+Deficit B (Independent): Delta_B = ['r4', 'r5']
+  L1 Load: |Delta_B|            = 2
+  L3 Load: r_M(Delta_B)          = 2
+------------------------------------------------------------------------
+STRUCTURAL DIVERGENCE:
+  L1 Order: L1(Delta_A) > L1(Delta_B)  -->  (3 > 2) [MISLEADING]
+  L3 Order: L3(Delta_A) == L3(Delta_B) -->  (2 == 2) [STRUCTURALLY EXACT]
+========================================================================

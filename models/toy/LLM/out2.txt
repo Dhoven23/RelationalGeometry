@@ -1,0 +1,89 @@
+========================================================================
+L2 RELATIONAL LABORATORY
+========================================================================
+
+RELATIONAL SUBSTRATE
+--------------------
+    x1 -> x2 -> x3
+    y1 -> y2 -> y3
+
+RELATIONAL WEIGHTS
+------------------
+    r1: x1 -> x2    weight = 1.0
+    r2: x2 -> x3    weight = 5.0
+    r3: y1 -> y2    weight = 1.0
+    r4: y2 -> y3    weight = 5.0
+
+DETECTOR QUOTIENT
+-----------------
+    q(x2) = M
+    q(y2) = M
+
+Therefore:
+    x2 ~ y2
+
+PROMPT STATE
+------------
+    sigma_n = ['x1', 'x2']
+    q(sigma_n) = ['x1', 'M']
+    C_n = ['r1']
+    R_req = ['r1', 'r2']
+    Delta_n = ['r2']
+    rho_L1(n) = 1
+    rho_L2(n) = 5.0
+    admissible continuations = ['x3', 'y3']
+
+EMISSION EXPERIMENT
+-------------------
+  P(x3)      rho_L1     rho_L2       empirical error
+  ----------------------------------------------------
+   0.00         1          5.0              1.000
+   0.25         1          5.0              0.747
+   0.50         1          5.0              0.497
+   0.75         1          5.0              0.243
+   1.00         1          5.0              0.000
+
+L1 vs L2 DEFICIT COMPARISON
+---------------------------
+  case   missing relations      L1       L2
+  -------------------------------------------
+   A      r2                     1       5.0
+   B      r1, r3                 2       2.0
+   C      r4                     1       5.0
+   D      r1, r2                 2       6.0
+   E      r3, r4                 2       6.0
+
+STRUCTURAL RESULT
+-----------------
+    rho_L1(n) = 1
+    rho_L2(n) = 5.0
+
+The quotient does not uniquely determine the
+continuation.
+
+L1 counts the missing relation.
+L2 measures the weighted relational load of
+that deficit.
+
+Changing emission policy changes empirical error,
+but does not change rho_L1 or rho_L2.
+
+Therefore:
+
+    relational deficit
+             !=
+    weighted closure load
+             !=
+    emission probability
+             !=
+    empirical error
+
+The key L2 question is:
+
+    Does weighted relational load predict
+    detector failure better than raw
+    deficit cardinality?
+
+========================================================================
+ALL L2 STRUCTURAL TESTS PASSED
+========================================================================
